@@ -11,7 +11,9 @@ body {
     cursor: pointer;
     display: none;
 }
-
+.btn:hover{
+    border: none !important;   
+}
 
 .hero-section,
 header {
@@ -221,9 +223,7 @@ ul li {
         display: flex;
         transform: translateX(0);
     }
-    .login-btn {
-        display: none !important;
-    }
+ 
     header , .hero-section , .call-to-action{
         background-image: none;
     }
